@@ -7,6 +7,7 @@
 
     section#login{
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -21,13 +22,14 @@
     }
 }
 
-@media screen and (min-width: 1025px) { /* para telas grandes > que tablets */
+@media screen and (min-width: 1025px){  /* para telas grandes > que tablets */
     body{
         background-image: linear-gradient(to bottom, #49a09d,#5f2c82);
     }
 
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -40,5 +42,15 @@
         float: left;
         width: 50%;
     }
+
+    section #formulario h1{
+        font-size: 2em;
+    }
+
+    section #formulario p{
+        font-size: 1.2em;
+    }
+
+}
     
     
